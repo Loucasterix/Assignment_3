@@ -164,6 +164,61 @@
                     "isPartOfComposite": false
                 },
                 {
+                    "name": "MIDI",
+                    "id": "6a5b5a4c-901a-4508-878d-d4d0fa63e91b",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "0c1e9850-ac76-4c30-9ac9-0c0b3b89eaa3",
+                    "path": "<MidiDevice>/note065",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MIDI",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "9ccb4871-51dd-4b1b-9130-546f82e958ec",
+                    "path": "<MidiDevice>/note059",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MIDI",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "3005cbcd-a0e8-4e9c-a564-f5fbf0e95ba9",
+                    "path": "<MidiDevice>/note056",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MIDI",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "ae649192-5bf6-4ee4-bcde-db95e2955d7b",
+                    "path": "<MidiDevice>/note068",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MIDI",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
                     "name": "",
                     "id": "c1f7a91b-d0fd-4a62-997e-7fb9b69bf235",
                     "path": "<Gamepad>/rightStick",
@@ -820,6 +875,11 @@
                     "isOR": false
                 }
             ]
+        },
+        {
+            "name": "MIDI",
+            "bindingGroup": "MIDI",
+            "devices": []
         }
     ]
 }
